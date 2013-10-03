@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Note: The data adding sequence has functional dependency with lookup columns. Do not move element-sections without valid reason.-->
+<ListData>
+  <WebApplications>
+    <WebApplication Url="http://oamdev01:2000">
+      <ManagedPath></ManagedPath>
+      <SiteCollections>
+        <SiteCollection Url="/Administration">
+          <Lists>
+            <List DisplayName="System Configuration" Url="Lists/SystemConfiguration">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="Title">AccountSiteUrl</Field>
+                    <Field Name="ConfigurationKey">AccountSiteUrl</Field>
+                    <Field Name="ConfigurationValue">http://oamdev01:6000</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+       
+          </Lists>
+        </SiteCollection>
+        
+      </SiteCollections>
+    </WebApplication>
+  </WebApplications>
+</ListData>

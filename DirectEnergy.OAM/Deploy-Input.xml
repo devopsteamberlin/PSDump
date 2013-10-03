@@ -1,0 +1,78 @@
+﻿<Solutions>
+  <!-- 
+  
+  Operation attribute will accept "Install", "Uninstall" and "Reinstall" attribute values.
+  
+    Install - Install the wsp and activate any specified features. This operation will not look 
+              for any existing features or solutions in the current deployment environment.
+    Uninstall - This operation will deactivate any features that was deployed from the Framework 
+              solution and uninstall them. Also it will retract the wsp and remove it from the 
+              solution store.
+    Reinstall - First run the Uninstall operation and then proceed with the Install operation.
+  -->
+
+  <Solution
+	  Path="C:\mywork\scm\DirectEnergy.OAM\Development\R1\DirectEnergy.OAM\Deployment\Navantis.SP2010.Framework.wsp"
+	  CASPolicies="false"
+	  GACDeployment="true"
+	  Operation="Reinstall">
+    <WebApplications>
+      <!-- Deploying Navantis Framework to OAM Account Site-->
+      <WebApplication Url="http://sp2010riyaz:9050">
+        <Features>
+          <!-- Need to specify the feature name,URL Activate attribute. If activate is set to true the feature will be activated in the given url.-->
+          <Feature Name="Navantis.SP2010.Framework_Web.Config.Configurations" Activate="false"/>
+          <Feature Name="Navantis.SP2010.Framework_Web.Config.LoggingService" Activate="false"/>
+        </Features>
+      </WebApplication>
+	  <!-- Deploying Navantis Framework to OAM Admin Site-->
+      <WebApplication Url="http://sp2010riyaz:9080">
+        <Features>          
+    <!-- Need to specify the feature name,URL Activate attribute. If activate is set to true the feature will be activated in the given url.-->
+          <Feature Name="Navantis.SP2010.Framework_Web.Config.Configurations" Activate="false"/>
+          <Feature Name="Navantis.SP2010.Framework_Web.Config.LoggingService" Activate="false"/>
+        </Features>
+      </WebApplication>
+    </WebApplications>
+  </Solution>
+
+  <Solution
+  Path="C:\mywork\scm\DirectEnergy.OAM\Development\R1\DirectEnergy.OAM\bin\Debug\DirectEnergy.OAM.wsp"
+  CASPolicies="false"
+  GACDeployment="true"
+  Operation="Reinstall">
+    <WebApplications>
+      <WebApplication Url="http://sp2010riyaz:9050">
+        <SiteCollections>
+          <SiteCollection Url="/" Name="For Your Home" Description="Welcome to DE" Template="OAMPortal#0" DeleteExisting="true" Owner="domainx\sp2010installer" LCID="1033">
+            <Features>
+            </Features>
+          </SiteCollection>
+        </SiteCollections>
+      </WebApplication>
+    </WebApplications>
+  </Solution>
+
+  <!--<Solution
+	  Path="C:\mywork\scm\DirectEnergy.OAM\Development\R1\DirectEnergy.OAM\bin\Debug\DirectEnergy.OAM.wsp"
+	  CASPolicies="false"
+	  GACDeployment="true"
+	  Operation="Reinstall">
+    <WebApplications>
+      --><!-- Deploying Direct Energy OAM Solution to OAM Account Site--><!--
+      <WebApplication Url="http://sp2010riyaz:9050">
+        <SiteCollections>
+          <SiteCollection Url="/" Name="Direct Energy OAM Accounts Site" Template="OAMROOTCONTAINER#0" DeleteExisting="true" Owner="domainx\sp2010installer" LCID="1033">
+          </SiteCollection>
+        </SiteCollections>
+      </WebApplication>
+	  <WebApplication Url="http://sp2010riyaz:9080">
+        <SiteCollections>
+          <SiteCollection Url="/" Name="Direct Energy OAM Admin Site" Template="OAMADMINROOTCONTAINER#0" DeleteExisting="true" Owner="domainx\sp2010installer" LCID="1033">
+          </SiteCollection>
+        </SiteCollections>
+      </WebApplication>
+    </WebApplications>
+  </Solution>-->
+  
+</Solutions>

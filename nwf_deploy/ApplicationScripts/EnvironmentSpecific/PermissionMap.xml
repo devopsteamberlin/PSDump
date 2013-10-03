@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PermissionMap>
+  <WebApplications>
+    <WebApplication Url="http://intranet">
+	  <ManagedPath>Contracts</ManagedPath>
+      <SiteCollections>
+        <SiteCollection Url="/">
+          <Groups>
+            <Group Name="Settlement Analysts" Notes="Settlement Analysts" RoleToPrincipal="Contribute" />            
+            <Group Name="Commercial Services Managers" Notes="Commercial Services Managers" RoleToPrincipal="Contribute" />              
+            <Group Name="Contract Management Director" Notes="Contract Management Director" RoleToPrincipal="Contribute" />              
+            <Group Name="Electricity Resources V.P." Notes="Electricity Resources V.P." RoleToPrincipal="Read" />              
+            <Group Name="Finance Members" Notes="Finance Members" RoleToPrincipal="Read" />              
+          </Groups>
+        </SiteCollection>
+		<SiteCollection Url="/process">
+          <Groups>
+            <Group Name="Settlement Analysts" Notes="Settlement Analysts">
+              <UniqueRoleAssignments>
+			  	<AssignedToElement Name="Document Updates" Url="Lists/auditlib" Type="List" OldRoleToPrincipal="Contribute" NewRoleToPrincipal=""></AssignedToElement>
+			  </UniqueRoleAssignments>
+            </Group>
+			<Group Name="Electricity Resources V.P." Notes="Electricity Resources V.P.">
+              <UniqueRoleAssignments>
+			  	<AssignedToElement Name="Document Updates" Url="Lists/auditlib" Type="List" OldRoleToPrincipal="Read" NewRoleToPrincipal=""></AssignedToElement>
+			  </UniqueRoleAssignments>
+            </Group>
+			<Group Name="Finance Members" Notes="Finance Members">
+              <UniqueRoleAssignments>
+			  	<AssignedToElement Name="Document Updates" Url="Lists/auditlib" Type="List" OldRoleToPrincipal="Read" NewRoleToPrincipal=""></AssignedToElement>
+			  </UniqueRoleAssignments>
+            </Group>
+          </Groups>
+        </SiteCollection>
+		<SiteCollection Url="/archive">
+          <Groups>
+            <Group Name="Settlement Analysts" Notes="Settlement Analysts">
+              <UniqueRoleAssignments>
+			  	<AssignedToElement Name="Settlement Record Centre" Url="" Type="Site" OldRoleToPrincipal="Contribute" NewRoleToPrincipal="Read"></AssignedToElement>
+				<AssignedToElement Name="Settlement Approval Records Document Library" Url="ApprovalRecords" Type="List" OldRoleToPrincipal="Contribute" NewRoleToPrincipal="Read"></AssignedToElement>
+			  </UniqueRoleAssignments>			  
+            </Group>
+			<Group Name="Contract Management Director" Notes="Contract Management Director">
+              <UniqueRoleAssignments>
+			  	<AssignedToElement Name="Settlement Record Centre" Url="" Type="Site" OldRoleToPrincipal="Contribute" NewRoleToPrincipal="Read"></AssignedToElement>
+				<AssignedToElement Name="Settlement Approval Records Document Library" Url="ApprovalRecords" Type="List" OldRoleToPrincipal="Contribute" NewRoleToPrincipal="Read"></AssignedToElement>
+			  </UniqueRoleAssignments>			  
+            </Group>			
+          </Groups>
+        </SiteCollection>
+      </SiteCollections>
+    </WebApplication>      
+  </WebApplications>
+</PermissionMap>

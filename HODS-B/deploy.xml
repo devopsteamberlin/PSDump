@@ -1,0 +1,34 @@
+<Solutions>
+	<!-- 
+  
+  Operation attribute will accept "Install", "Uninstall" and "Reinstall" attribute values.
+  
+    Install - Install the wsp and activate any specified featres. This operation will not look 
+              for any existing features or solutions in the current deployment enviornmnet.
+    Uninstall - This operation will deactivate any features that was deployed from the Framwork 
+              solution and uninstall them. Also it will retract the wsp and remove it from the 
+              solution store.
+    Reinstall - First run the Uninstall operation and then procede with the Install operation.
+  
+    Restore - Restore Solution from site backup.
+  ...............................................................................................
+  
+  Content Database Operations
+  
+  Valid at the Web Application Level
+  
+  -->
+
+	<Solution
+	  Path="C:\DEPLOY\CU BUILD\HODS.SharePoint.wsp"
+	  CASPolicies="false"
+	  GACDeployment="true"
+	  Operation="Reinstall">
+		<WebApplications>
+			<WebApplication Url="http://hodsdev01.domainx.local:9999" >
+				<Features>
+				</Features>
+			</WebApplication>
+		</WebApplications>
+	</Solution>
+</Solutions>

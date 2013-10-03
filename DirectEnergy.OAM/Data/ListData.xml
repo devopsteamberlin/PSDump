@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Note: The data adding sequence has functional dependency with lookup columns. Do not move element-sections without valid reason.-->
+<ListData>
+  <WebApplications>
+    <WebApplication Url="http://sp2010riyaz:9050">
+      <ManagedPath></ManagedPath>
+      <SiteCollections>
+        <SiteCollection Url="/">
+          <Lists>
+            <List DisplayName="Brands" Url="Lists/Brands">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="Domain">sp2010riyaz:9050</Field>
+                    <Field Name="BrandName">brand 1</Field>
+
+                    <Field Name="MasterPageUrl">/_catalogs/masterpage/DE_OAM_DirectEnergy.master</Field>
+                    <Field Name="LoginMasterPageUrl">/_catalogs/masterpage/DE_OAM_Login_Residential.master</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+          </Lists>
+        </SiteCollection>
+        <SiteCollection Url="/en">
+          <Lists> 
+            <List DisplayName="Commodities" Url="Lists/Commodities">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="CommodityCode">ELEC</Field>
+                    <Field Name="CommodityName">Electricity</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="CommodityCode">GAS</Field>
+                    <Field Name="CommodityName">Gas</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="CommodityCode">Duel</Field>
+                    <Field Name="CommodityName">Duel Fuel</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="States" Url="Lists/States">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name ='StateId'>AL</Field>
+                    <Field Name ='StateName'>ALABAMA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>AK</Field>
+                    <Field Name ='StateName'>ALASKA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>AZ</Field>
+                    <Field Name ='StateName'>ARIZONA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>AR</Field>
+                    <Field Name ='StateName'>ARKANSAS</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>CA</Field>
+                    <Field Name ='StateName'>CALIFORNIA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>CO</Field>
+                    <Field Name ='StateName'>COLORADO</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>CT</Field>
+                    <Field Name ='StateName'>CONNECTICUT</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>DE</Field>
+                    <Field Name ='StateName'>DELAWARE</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>FL</Field>
+                    <Field Name ='StateName'>FLORIDA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>GA</Field>
+                    <Field Name ='StateName'>GEORGIA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>HI</Field>
+                    <Field Name ='StateName'>HAWAII</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>ID</Field>
+                    <Field Name ='StateName'>IDAHO</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>IL</Field>
+                    <Field Name ='StateName'>ILLINOIS</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>IN</Field>
+                    <Field Name ='StateName'>INDIANA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>IA</Field>
+                    <Field Name ='StateName'>IOWA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>KS</Field>
+                    <Field Name ='StateName'>KANSAS</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>KY</Field>
+                    <Field Name ='StateName'>KENTUCKY</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>LA</Field>
+                    <Field Name ='StateName'>LOUISIANA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>ME</Field>
+                    <Field Name ='StateName'>MAINE</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>MD</Field>
+                    <Field Name ='StateName'>MARYLAND</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>MA</Field>
+                    <Field Name ='StateName'>MASSACHUSETTS</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>MI</Field>
+                    <Field Name ='StateName'>MICHIGAN</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>MN</Field>
+                    <Field Name ='StateName'>MINNESOTA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>MS</Field>
+                    <Field Name ='StateName'>MISSISSIPPI</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>MO</Field>
+                    <Field Name ='StateName'>MISSOURI</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>MT</Field>
+                    <Field Name ='StateName'>MONTANA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>NE</Field>
+                    <Field Name ='StateName'>NEBRASKA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>NV</Field>
+                    <Field Name ='StateName'>NEVADA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>NH</Field>
+                    <Field Name ='StateName'>NEW HAMPSHIRE</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>NJ</Field>
+                    <Field Name ='StateName'>NEW JERSEY</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>NM</Field>
+                    <Field Name ='StateName'>NEW MEXICO</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>NY</Field>
+                    <Field Name ='StateName'>NEW YORK</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>NC</Field>
+                    <Field Name ='StateName'>NORTH CAROLINA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>ND</Field>
+                    <Field Name ='StateName'>NORTH DAKOTA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>OH</Field>
+                    <Field Name ='StateName'>OHIO</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>OK</Field>
+                    <Field Name ='StateName'>OKLAHOMA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>OR</Field>
+                    <Field Name ='StateName'>OREGON</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>PA</Field>
+                    <Field Name ='StateName'>PENNSYLVANIA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>RI</Field>
+                    <Field Name ='StateName'>RHODE ISLAND</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>SC</Field>
+                    <Field Name ='StateName'>SOUTH CAROLINA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>SD</Field>
+                    <Field Name ='StateName'>SOUTH DAKOTA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>TN</Field>
+                    <Field Name ='StateName'>TENNESSEE</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>TX</Field>
+                    <Field Name ='StateName'>TEXAS</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>UT</Field>
+                    <Field Name ='StateName'>UTAH</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>VT</Field>
+                    <Field Name ='StateName'>VERMONT</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>VA</Field>
+                    <Field Name ='StateName'>VIRGINIA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>WA</Field>
+                    <Field Name ='StateName'>WASHINGTON</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>WV</Field>
+                    <Field Name ='StateName'>WEST VIRGINIA</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>WI</Field>
+                    <Field Name ='StateName'>WISCONSIN</Field>
+                  </Row>
+                  <Row>
+                    <Field Name ='StateId'>WY</Field>
+                    <Field Name ='StateName'>WYOMING</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="Registration Configuration" Url="Lists/RegistrationConfiguration">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="BenefitsHeader">Registration</Field>
+                    <Field Name="BenefitsSubHeader">The Benefits of Enrolling</Field>
+                    <Field Name="BenefitsDescription">
+                      &lt;p&gt;Sign up now and take advantage of loerium ibsum dooro, all alet, connector adipicding.!&lt;/p&gt;
+                      &lt;ul&gt;
+                      &lt;li&gt;Send to loipoadr indiacationg in threading in depvers!.&lt;/li&gt;
+                      &lt;li&gt;UI elemt at minmum weitgeer protectedtive operation  unlitimates and for ro the bagae.&lt;/li&gt;
+                      &lt;li&gt;Dule sale ingore and in teh appllingemant and for ekaka peoplems wireast ligumd.&lt;/li&gt;
+                      &lt;/ul&gt;
+                    </Field>
+                    <Field Name="TermsandConditions">
+                      &lt;DIV id=main_contentx&gt;
+                      &lt;H2&gt;WEB SITE TERMS OF USE&lt;/H2&gt;
+                      &lt;H3&gt;INTRODUCTION&lt;/H3&gt;
+                      &lt;P&gt;You have accessed the web site of Direct Energy, LP and its parents, subsidiaries and affiliates (&quot;Direct Energy&quot;). For purposes of these Terms of Use, the &quot;Site&quot; includes the web site of Direct Energy (www.directenergy.com). Please read these Terms of Use carefully before using the Site. By accessing and browsing the Site, you agree to these Terms of Use with Direct Energy. If you do not agree to all of these Terms of Use please exit from this site immediately. &lt;/P&gt;
+                      &lt;P&gt;The Site is comprised of various documents and web pages created and maintained by Direct Energy. While accessing and using the Site, you may be able to order services or pay bills on line or conduct other business with Direct Energy through the Site (the &quot;Services&quot;). The Site and the Services are offered to you on the condition that you accept, without modification, the terms and conditions contained in this document. Your use of the Site and any Services constitutes your agreement to all such terms and conditions. &lt;/P&gt;
+                      &lt;P&gt;Direct Energy may revise and update these Terms of Use at any time without notice. Please periodically review the Terms of Use posted at this web site. Your continued use of the web site will mean acceptance of those changes. &lt;/P&gt;
+                      &lt;P&gt;The terms &quot;Direct Energy&quot; &quot;Company&quot; &quot;we,&quot; and &quot;our&quot; are used in this site for purposes of convenience and are intended to refer to Direct Energy and/or its affiliates, subsidiaries or related parties either individually or collectively, as the context may require. These references are not intended to suggest that the various Direct Energy companies referred to are not independent corporate entities having separate corporate identities and management. &lt;/P&gt;
+                      &lt;H3&gt;COMMUNICATION AND PRIVACY&lt;/H3&gt;
+                      &lt;P&gt;Direct Energy owns the Site. If you have any questions about our Web Site Terms of Use and Policies, you may &lt;A href=&quot;mailto:customerservice@directenergy.com&quot;&gt;e-mail&lt;/A&gt; us or write to: &lt;/P&gt;
+                      &lt;/DIV&gt;
+                    </Field>
+                    <Field Name="LoginHeader">Simply Your Online Account Management.</Field>
+                    <Field Name="LoginDescription">
+                      &lt;h2&gt;Manage your account with our Online Account Manager&lt;/h2&gt;
+                      &lt;ul&gt;&lt;li&gt;Pay your bill&lt;/li&gt;
+                      &lt;li&gt;Check your energy usage&lt;/li&gt;
+                      &lt;li&gt;Manage your accounts &amp;amp; much more&lt;/li&gt;&lt;/ul&gt;
+                    </Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="FooterLinksCategories" Url="Lists/FooterLinksCategories">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="Title">About Us</Field>
+                    <Field Name="SortOrder">1</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Products And Services</Field>
+                    <Field Name="SortOrder">2</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Energy Efficiency</Field>
+                    <Field Name="SortOrder">3</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Support</Field>
+                    <Field Name="SortOrder">4</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="FooterLinks" Url="Lists/FooterLinks">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="Title">Manage Your Account</Field>
+                    <Field Name="Category">1;#About Us</Field>
+                    <Field Name="URL">https://youraccount.cplretailenergy.com/ews/welcomeCPL.jsp</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Rewards</Field>
+                    <Field Name="Category">1;#About Us</Field>
+                    <Field Name="URL">/about-us/default.aspx</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Common Questions</Field>
+                    <Field Name="Category">1;#About Us</Field>
+                    <Field Name="URL">/customer-support/faqs.aspx</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Contact Us</Field>
+                    <Field Name="Category">1;#About Us</Field>
+                    <Field Name="URL">/customer-support/contact-us.aspx</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Smart Energy</Field>
+                    <Field Name="Category">2;#Products And Services</Field>
+                    <Field Name="URL">/learning-center/smart-energy/default.aspx</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Home Safety</Field>
+                    <Field Name="Category">2;#Products And Services</Field>
+                    <Field Name="URL">/learning-center/home-safety/default.aspx</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Cooling and Heating</Field>
+                    <Field Name="Category">2;#Products And Services</Field>
+                    <Field Name="URL">/learning-center/heating-cooling/about-heating-and-cooling.aspx</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Plumbing</Field>
+                    <Field Name="Category">2;#Products And Services</Field>
+                    <Field Name="URL">/learning-center/plumbing/replace-product.aspx</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Power Outages</Field>
+                    <Field Name="Category">2;#Products And Services</Field>
+                    <Field Name="URL">/learning-center/power-outages/default.aspx</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Power Line Safety</Field>
+                    <Field Name="Category">2;#Products And Services</Field>
+                    <Field Name="URL">/learning-center/power-line-safety/default.aspx</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Energy Efficiency</Field>
+                    <Field Name="Category">3;#Energy Efficiency</Field>
+                    <Field Name="URL">/learning-center/energy-efficiency/energy-efficiency.aspx</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Title">Support</Field>
+                    <Field Name="Category">4;#Support</Field>
+                    <Field Name="URL">/customer-support/contact-us.aspx</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="Button Ribbon" Url="Lists/ButtonRibbon">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="UploadFilePath=ButtonRibbon-Images\img_co_1.png"></Field>
+                    <Field Name="Heading">Promotional Call Out</Field>
+                    <Field Name="Copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum ever since the 1500s</Field>
+                    <Field Name="Title">More...</Field>
+                    <Field Name="ButtonTargetURL">/en/learning-center/smart-energy/</Field>
+                    <Field Name="SortOrder">1</Field>
+                    <Field Name="ModifiedDate">2012-05-14</Field>
+                    <Field Name="State"></Field>
+                    <Field Name="City"></Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UploadFilePath=ButtonRibbon-Images\img_co_2.png"></Field>
+                    <Field Name="Heading">Promotional Call Out in two lines</Field>
+                    <Field Name="Copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry ever since the 1600s</Field>
+                    <Field Name="Title">More...</Field>
+                    <Field Name="ButtonTargetURL">/en/learning-center/energy-efficiency/</Field>
+                    <Field Name="SortOrder">2</Field>
+                    <Field Name="ModifiedDate">2012-05-14</Field>
+                    <Field Name="State"></Field>
+                    <Field Name="City"></Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UploadFilePath=ButtonRibbon-Images\img_co_3.png"></Field>
+                    <Field Name="Heading">Promotional Call Out</Field>
+                    <Field Name="Copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ever since the 1700s</Field>
+                    <Field Name="Title">More...</Field>
+                    <Field Name="ButtonTargetURL">/en/learning-center/heating-cooling/</Field>
+                    <Field Name="SortOrder">4</Field>
+                    <Field Name="ModifiedDate">2012-05-14</Field>
+                    <Field Name="State"></Field>
+                    <Field Name="City"></Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UploadFilePath=ButtonRibbon-Images\img_co_4.png"></Field>
+                    <Field Name="Heading">Promotional Call Out</Field>
+                    <Field Name="Copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry since the 1800s</Field>
+                    <Field Name="Title">More...</Field>
+                    <Field Name="ButtonTargetURL">/en/learning-center/home-safety/</Field>
+                    <Field Name="SortOrder">3</Field>
+                    <Field Name="ModifiedDate">2012-05-14</Field>
+                    <Field Name="State"></Field>
+                    <Field Name="City"></Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+          </Lists>
+        </SiteCollection>
+        <SiteCollection Url="/en/accounts">
+          <Lists>
+            <List DisplayName="Account Sites" Url="Lists/AccountSites">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="Name">Prepaid</Field>
+                    <Field Name="SiteUrl">/Prepaid</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="Name">Postpaid</Field>
+                    <Field Name="SiteUrl">/Postpaid</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="System Configuration" Url="Lists/SystemConfiguration">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="Title">FileServiceUrl</Field>
+                    <Field Name="ConfigurationKey">FileServiceUrl</Field>
+                    <Field Name="ConfigurationValue">/_layouts/DirectEnergy.OAM.FileService/FileService.ashx</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="Top Navigation" Url="Lists/TopNavigation">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="Key">navItemHome</Field>
+                    <Field Name="Name">Home</Field>
+                    <Field Name="Url">Welcome.aspx</Field>
+                    <Field Name="Tooltip">Home page.</Field>
+                    <Field Name="OrderValue">1</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="Key">navItemYourProfile</Field>
+                    <Field Name="Name">YourProfile</Field>
+                    <Field Name="Url">Profile.aspx</Field>
+                    <Field Name="Tooltip">Your profile page.</Field>
+                    <Field Name="OrderValue">2</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="Key">navItemBillingAndPayment</Field>
+                    <Field Name="Name">BillingAndPayment</Field>
+                    <Field Name="Url">BillingPayment.aspx</Field>
+                    <Field Name="Tooltip">BillingAndPayment page.</Field>
+                    <Field Name="OrderValue">3</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="Key">navItemUsageDetails</Field>
+                    <Field Name="Name">UsageDetails</Field>
+                    <Field Name="Url">Usage.aspx</Field>
+                    <Field Name="Tooltip">UsageDetails page.</Field>
+                    <Field Name="OrderValue">4</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="Key">navItemHomeServices</Field>
+                    <Field Name="Name">HomeServices</Field>
+                    <Field Name="Url">HomeServices.aspx</Field>
+                    <Field Name="Tooltip">HomeServices page.</Field>
+                    <Field Name="OrderValue">5</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="Key">navItemSpecialOffers</Field>
+                    <Field Name="Name">SpecialOffers</Field>
+                    <Field Name="Url">SpecialOffers.aspx</Field>
+                    <Field Name="Tooltip">SpecialOffers page.</Field>
+                    <Field Name="OrderValue">7</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="Banners" Url="Lists/Banners">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="UploadFilePath=BannerList-Images\slide-1.jpg"></Field>
+                    <Field Name="Description">We are happy to help move your current direct evergy service to your new home.</Field>
+                    <Field Name="LinkUrl">#</Field>
+                    <Field Name="LinkText">Button</Field>
+                    <Field Name="BannerTitle">Easy. Simple. Done.</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="OrderValue">100</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UploadFilePath=BannerList-Images\slide-2.jpg"></Field>
+                    <Field Name="Description">Quisque eget mauris nec lectus auctor facilisis id in nulls.</Field>
+                    <Field Name="LinkUrl">#</Field>
+                    <Field Name="LinkText">Button</Field>
+                    <Field Name="BannerTitle">In a nisl, sed sagittis orci</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="OrderValue">200</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UploadFilePath=BannerList-Images\slide-3.jpg"></Field>
+                    <Field Name="Description">Vestibulum rutrum nisi at augue commodo sed vestibulum justo mattis.</Field>
+                    <Field Name="LinkUrl">#</Field>
+                    <Field Name="LinkText">Button</Field>
+                    <Field Name="BannerTitle">Donec sed velit volutpat justo</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="OrderValue">300</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UploadFilePath=BannerList-Images\slide-4.jpg"></Field>
+                    <Field Name="Description">Donec sed magna ac ante commodo adipiscing.</Field>
+                    <Field Name="LinkUrl">#</Field>
+                    <Field Name="LinkText">Button</Field>
+                    <Field Name="BannerTitle">Easy. Simple. Done.</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="OrderValue">400</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UploadFilePath=BannerList-Images\slide-5.jpg"></Field>
+                    <Field Name="Description">Etiam cursus justo ornare diam placerat et tincidunt nisi facilisis.</Field>
+                    <Field Name="LinkUrl">#</Field>
+                    <Field Name="LinkText">Button</Field>
+                    <Field Name="BannerTitle">Integer dictum porta</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="OrderValue">500</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UploadFilePath=BannerList-Images\slide-6.jpg"></Field>
+                    <Field Name="Description">Maecenas vel dolor in ligula tincidunt mattis non eu augue.</Field>
+                    <Field Name="LinkUrl">#</Field>
+                    <Field Name="LinkText">Button</Field>
+                    <Field Name="BannerTitle">Vivamus fermentum neque </Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="OrderValue">600</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UploadFilePath=BannerList-Images\slide-7.jpg"></Field>
+                    <Field Name="Description">Fusce vitae nisi enim, at blandit ligula.</Field>
+                    <Field Name="LinkUrl">#</Field>
+                    <Field Name="LinkText">Button</Field>
+                    <Field Name="BannerTitle">Easy. Simple. Done.</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="OrderValue">700</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="Home Services" Url="Lists/HomeServices">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="UploadFilePath=HomeServices-Images\our_partners_img1.png"></Field>
+                    <Field Name="HomeServiceTitle">Mr. Sparky</Field>
+                    <Field Name="LinkUrl">http://www.mistersparky.com/</Field>
+                    <Field Name="Title">Electrician Needs</Field>
+                    <Field Name="Description">Mister Sparky&#174; is your emergency, 24-hour electrical services source.</Field>
+                    <Field Name="OrderValue">100</Field>
+                    <Field Name="BingMapsSearchTerm">Mr. Sparky</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UploadFilePath=HomeServices-Images\our_partners_img2.png"></Field>
+                    <Field Name="HomeServiceTitle">Benjamin Franklin the Punctual Plumber</Field>
+                    <Field Name="LinkUrl">http://www.benjaminfranklinplumbing.com/</Field>
+                    <Field Name="Title">Plumbing Needs</Field>
+                    <Field Name="Description">Benjamin Franklin&#174; is your emergency, 24-hour electrical services source.</Field>
+                    <Field Name="OrderValue">200</Field>
+                    <Field Name="BingMapsSearchTerm">Benjamin Franklin the Punctual Plumber</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UploadFilePath=HomeServices-Images\our_partners_img3.png"></Field>
+                    <Field Name="HomeServiceTitle">McCarthy’s One Hour Heating &amp; Air Conditioning</Field>
+                    <Field Name="LinkUrl">http://www.mccarthysonehour.com/</Field>
+                    <Field Name="Title">Heating &amp; Air Repair</Field>
+                    <Field Name="Description">One Hour Head and Air&#174; is your emergency, 24-hour electrical services source.</Field>
+                    <Field Name="OrderValue">300</Field>
+                    <Field Name="BingMapsSearchTerm">McCarthy’s One Hour Heating Air Conditioning </Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="Convenient Features" Url="Lists/ConvenientFeatures">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="ConvenientFeatureName">Paperless Billing</Field>
+                    <Field Name="Url">#</Field>
+                    <Field Name="Tooltip">TooltipText1</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="ConvenientFeatureName">Customer defined alerts</Field>
+                    <Field Name="Url">#</Field>
+                    <Field Name="Tooltip">TooltipText2</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="ConvenientFeatureName">Move your service</Field>
+                    <Field Name="Url">#</Field>
+                    <Field Name="Tooltip">TooltipText3</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="ConvenientFeatureName">Smart Energy Solutions</Field>
+                    <Field Name="Url">#</Field>
+                    <Field Name="Tooltip">TooltipText4</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="Site Configuration" Url="Lists/SiteConfiguration">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="ContactUsEmailAddress">contactus@directenergy.local</Field>                    
+                    <Field Name="ContactUsSubject">Mail Subject of Contact Us Email.</Field>
+                    <Field Name="AdministrationSiteUrl">sp2010riyaz:9080</Field>
+                    <Field Name="IsTermsAndConditionsRequired">1</Field>
+                    <Field Name="EBillingTermsConditions">
+                      &lt;DIV id=main_contentx&gt;
+                      &lt;H2&gt;EBILLING TERMS OF USE&lt;/H2&gt;
+                      &lt;H3&gt;INTRODUCTION&lt;/H3&gt;
+                      &lt;P&gt;You have accessed the web site of Direct Energy, LP and its parents, subsidiaries and affiliates (&quot;Direct Energy&quot;). For purposes of these Terms of Use, the &quot;Site&quot; includes the web site of Direct Energy (www.directenergy.com). Please read these Terms of Use carefully before using the Site. By accessing and browsing the Site, you agree to these Terms of Use with Direct Energy. If you do not agree to all of these Terms of Use please exit from this site immediately. &lt;/P&gt;
+                      &lt;P&gt;The Site is comprised of various documents and web pages created and maintained by Direct Energy. While accessing and using the Site, you may be able to order services or pay bills on line or conduct other business with Direct Energy through the Site (the &quot;Services&quot;). The Site and the Services are offered to you on the condition that you accept, without modification, the terms and conditions contained in this document. Your use of the Site and any Services constitutes your agreement to all such terms and conditions. &lt;/P&gt;
+                      &lt;P&gt;Direct Energy may revise and update these Terms of Use at any time without notice. Please periodically review the Terms of Use posted at this web site. Your continued use of the web site will mean acceptance of those changes. &lt;/P&gt;
+                      &lt;P&gt;The terms &quot;Direct Energy&quot; &quot;Company&quot; &quot;we,&quot; and &quot;our&quot; are used in this site for purposes of convenience and are intended to refer to Direct Energy and/or its affiliates, subsidiaries or related parties either individually or collectively, as the context may require. These references are not intended to suggest that the various Direct Energy companies referred to are not independent corporate entities having separate corporate identities and management. &lt;/P&gt;
+                      &lt;H3&gt;COMMUNICATION AND PRIVACY&lt;/H3&gt;
+                      &lt;P&gt;Direct Energy owns the Site. If you have any questions about our Web Site Terms of Use and Policies, you may &lt;A href=&quot;mailto:customerservice@directenergy.com&quot;&gt;e-mail&lt;/A&gt; us or write to: &lt;/P&gt;
+                      &lt;/DIV&gt;
+                    </Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="Messages" Url="Lists/Messages">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="ZipCode"></Field>
+                    <Field Name="StateValue"></Field>
+                    <Field Name="Utility"></Field>
+                    <Field Name="CustomerType"></Field>
+                    <Field Name="CommodityValue"></Field>
+                    <Field Name="IsRenewalEligible">True</Field>                    
+                    <Field Name="MessagingHeader">whose renewal date is within 60 days of today</Field>
+                    <Field Name="MessagingText">Message will show to any user who has an account whose renewal date is within 60 days of today</Field>
+                    <Field Name="Priority">1</Field>
+                    <Field Name="Brand"></Field>
+                    <Field Name="SiteType"></Field>
+                  </Row>
+                  <Row>
+                    <Field Name="ZipCode"></Field>
+                    <Field Name="StateValue">TX</Field>
+                    <Field Name="Utility"></Field>
+                    <Field Name="CustomerType"></Field>
+                    <Field Name="CommodityValue"></Field>
+                    <Field Name="IsRenewalEligible">True</Field>
+                    <Field Name="MessagingHeader">Renewal date is within 60 days of today and is in the state of Texas</Field>
+                    <Field Name="MessagingText">Message will show to any user who has an account whose renewal date is within 60 days of today and is in the state of Texas </Field>
+                    <Field Name="Priority">2</Field>
+                    <Field Name="Brand"></Field>
+                    <Field Name="SiteType"></Field>
+                  </Row>
+                  <Row>
+                    <Field Name="ZipCode">12345</Field>
+                    <Field Name="StateValue"></Field>
+                    <Field Name="Utility"></Field>
+                    <Field Name="CustomerType"></Field>
+                    <Field Name="CommodityValue"></Field>
+                    <Field Name="IsRenewalEligible">True</Field>
+                    <Field Name="MessagingHeader">Within 60 days of today and has the zip code of 12345</Field>
+                    <Field Name="MessagingText">Message will show to any user who has an account whose renewal date is within 60 days of today and has the zip code of 12345</Field>
+                    <Field Name="Priority">3</Field>
+                    <Field Name="Brand"></Field>
+                    <Field Name="SiteType"></Field>
+                  </Row>
+                  <Row>
+                    <Field Name="ZipCode"></Field>
+                    <Field Name="StateValue">TX</Field>
+                    <Field Name="Utility"></Field>
+                    <Field Name="CustomerType"></Field>
+                    <Field Name="CommodityValue"></Field>
+                    <Field Name="IsRenewalEligible">True</Field>
+                    <Field Name="MessagingHeader">WTU brand and  is prepaid and is in the state of TX</Field>
+                    <Field Name="MessagingText">Message will show to any user who has an account with WTU brand and  is prepaid and is in the state of TX</Field>
+                    <Field Name="Priority">4</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">1;#Prepaid</Field>
+                  </Row>
+
+                  <Row>
+                    <Field Name="ZipCode">1234,523456</Field>
+                    <Field Name="StateValue"></Field>
+                    <Field Name="Utility"></Field>
+                    <Field Name="CustomerType"></Field>
+                    <Field Name="CommodityValue"></Field>
+                    <Field Name="IsRenewalEligible"></Field>
+                    <Field Name="MessagingHeader">Has a zip code of 12345 or 23456</Field>
+                    <Field Name="MessagingText">Message will show to any user who has an account that has a zip code of 12345 or 23456</Field>
+                    <Field Name="Priority">5</Field>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType"></Field>
+                  </Row>
+                  <Row>
+                    <Field Name="ZipCode"></Field>
+                    <Field Name="StateValue">TX</Field>
+                    <Field Name="Utility"></Field>
+                    <Field Name="CustomerType"></Field>
+                    <Field Name="CommodityValue"></Field>
+                    <Field Name="IsRenewalEligible"></Field>
+                    <Field Name="MessagingHeader">Who has an account in Texas</Field>
+                    <Field Name="MessagingText">Message will show to any user who has an account in Texas</Field>
+                    <Field Name="Priority">6</Field>
+                    <Field Name="Brand"></Field>
+                    <Field Name="SiteType"></Field>
+                  </Row>
+                  <Row>
+                    <Field Name="ZipCode"></Field>
+                    <Field Name="StateValue">TX</Field>
+                    <Field Name="Utility">Electricity</Field>
+                    <Field Name="CustomerType">Residential</Field>
+                    <Field Name="CommodityValue"></Field>
+                    <Field Name="IsRenewalEligible"></Field>
+                    <Field Name="MessagingHeader">Has electricity as utility for any of his accounts</Field>
+                    <Field Name="MessagingText">Message will show to any user who is residential, in texas and has electricity as utility for any of his accounts</Field>
+                    <Field Name="Priority">7</Field>
+                    <Field Name="Brand"></Field>
+                    <Field Name="SiteType"></Field>
+                  </Row>
+                  <Row>
+                    <Field Name="ZipCode"></Field>
+                    <Field Name="StateValue">TX</Field>
+                    <Field Name="Utility"></Field>
+                    <Field Name="CustomerType"></Field>
+                    <Field Name="CommodityValue"></Field>
+                    <Field Name="IsRenewalEligible"></Field>
+                    <Field Name="MessagingHeader">Post paid account in Texas</Field>
+                    <Field Name="MessagingText">Message will show to any user who has a post paid account in Texas</Field>
+                    <Field Name="Priority">8</Field>
+                    <Field Name="Brand"></Field>
+                    <Field Name="SiteType">1;#Postpaid</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="ZipCode"></Field>
+                    <Field Name="StateValue"></Field>
+                    <Field Name="Utility"></Field>
+                    <Field Name="CustomerType"></Field>
+                    <Field Name="CommodityValue"></Field>
+                    <Field Name="IsRenewalEligible"></Field>
+                    <Field Name="MessagingHeader">Account whose brand is DE</Field>
+                    <Field Name="MessagingText">Message will show to any user who has an account whose brand is DE</Field>
+                    <Field Name="Priority">9</Field>
+                    <Field Name="Brand">2;#DE</Field>
+                    <Field Name="SiteType"></Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="Premise Types" Url="Lists/PremiseTypes">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="PremiseTypeCode">PremiseType1</Field>
+                    <Field Name="PremiseTypeName">House</Field>                    
+                  </Row>
+                  <Row>
+                    <Field Name="PremiseTypeCode">PremiseType2</Field>
+                    <Field Name="PremiseTypeName">Townhouse</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="PremiseTypeCode">PremiseType3</Field>
+                    <Field Name="PremiseTypeName">Apartment</Field>
+                  </Row>                 
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="Cooling Types" Url="Lists/CoolingTypes">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="CoolingTypeId">CoolingType1</Field>
+                    <Field Name="CoolingTypeName">Central Air Conditioner</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="CoolingTypeId">CoolingType2</Field>
+                    <Field Name="CoolingTypeName">Fan</Field>
+                  </Row>                  
+                </Rows>
+              </Data>
+            </List>
+            <List DisplayName="Heating Types" Url="Lists/HeatingTypes">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="HeatingTypeId">HeatingType1</Field>
+                    <Field Name="HeatingTypeName">Gas</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="HeatingTypeId">HeatingType2</Field>
+                    <Field Name="HeatingTypeName">Heater</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+          </Lists>
+        </SiteCollection>
+        <SiteCollection Url="/en/accounts">
+          <Lists>
+            <List DisplayName="Utility Configuration" Url="Lists/UtilityConfiguration">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="UtilityId">CHG</Field>
+                    <Field Name="UtilityName">Central Hudson Gas</Field>
+                  </Row>
+                  <Row>
+                    <Field Name="UtilityId">LIG</Field>
+                    <Field Name="UtilityName">National Grid (LI) Gas</Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+          </Lists>
+        </SiteCollection>
+        <SiteCollection Url="/en">
+          <Lists>
+            <List DisplayName="Utilities" Url="Lists/Utilities">
+              <Data>
+                <Rows>
+                  <Row>
+                    <Field Name="Brand">1;#brand 1</Field>
+                    <Field Name="SiteType">2;#Postpaid</Field>
+                    <Field Name="UtilityLookUp">1;#Central Hudson Gas</Field>
+                    <Field Name="State">1;#ALABAMA</Field>
+                    <Field Name="Commodity">1;#Electricity</Field>
+                    <Field Name="PaymentOptions">
+                      &lt;p&gt;To help serve you better, here are more for you to pay.&lt;/p&gt;
+                      &lt;h3&gt;
+                      Call:&lt;/h3&gt;
+                      &lt;p&gt;
+                      1-888-1111-1234&lt;br /&gt;
+                      1-888-1111-1234&lt;br /&gt;
+                      1-888-1111-1234&lt;/p&gt;
+                      &lt;h3&gt;
+                      Address:&lt;/h3&gt;
+                      &lt;p&gt;
+                      40 Main Street
+                      &lt;br&gt;
+                      Houston, Texas&lt;/p&gt;
+                    </Field>
+                  </Row>
+                </Rows>
+              </Data>
+            </List>
+          </Lists>
+        </SiteCollection>
+      </SiteCollections>
+    </WebApplication>
+  </WebApplications>
+</ListData>
